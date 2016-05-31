@@ -8,6 +8,6 @@ last_name = gets.chomp
 
 puts "How old do you want to be?"
 age = gets.chomp.to_i
-	puts "Too bad! You look like you're #{age+15}"
-	
+	puts "Too bad! You look like you're #{age+15}!"
+
 
