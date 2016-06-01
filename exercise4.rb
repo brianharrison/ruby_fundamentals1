@@ -1,14 +1,14 @@
-
 100.times do |number|
+plus1 = number+1
 
-if(number % 3 ==0)
+if(plus1 % 3 ==0)
 	puts "Bit"
-elsif (number % 5 ==0)
+elsif (plus1 % 5 ==0)
 	puts "Maker"
-elsif (number % (3+5) ==0)
+elsif (plus1 % 3 ==0 and plus1 % 5 ==0)
 	puts "BitMaker"
 else
-	puts number
+	puts plus1
 end
 
 end
